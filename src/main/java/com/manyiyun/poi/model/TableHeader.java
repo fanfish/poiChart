@@ -19,7 +19,7 @@ public class TableHeader {
 	private String fontFamily="Courier";
 	//表头文本是否粗体
 	private boolean isBold;
-	//是否是两行表头
+	//是否是两维表头
 	private boolean h2d;
 	
 	public int getRows() {

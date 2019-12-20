@@ -488,7 +488,7 @@ public class SimpleDocxMaker implements DocxMaker {
 		}
 	}
 	
-    private static void setVBarData(XWPFChart chart, String chartTitle, String[] series, String[] categories, List<Double[]> list) {
+    private void setVBarData(XWPFChart chart, String chartTitle, String[] series, String[] categories, List<Double[]> list) {
         // Use a category axis for the bottom axis.
         XDDFChartAxis bottomAxis = chart.createCategoryAxis(AxisPosition.BOTTOM);      
         XDDFValueAxis leftAxis = chart.createValueAxis(AxisPosition.LEFT);        
